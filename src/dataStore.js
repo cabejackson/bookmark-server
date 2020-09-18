@@ -1,16 +1,18 @@
-const bookmark = [
+const { v4: uuid } = require("uuid");
+
+const bookmarks = [
   {
-    id: 1,
+    id: uuid(),
     name: "Task One",
     url: "Task One",
     description: "This is card one"
   },
   {
-    id: 2,
+    id: uuid(),
     name: "List One",
     url: "List One",
     description: "This is card two"
   }
 ];
 
-module.exports = bookmark;
+module.exports = bookmarks;
