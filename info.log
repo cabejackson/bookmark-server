@@ -1,2 +1,7 @@
 {"message":"name and description are required","level":"error"}
 {"message":"bookmark id:0f6b91f8-fb75-4512-9737-50e095a81acc was deleted","level":"info"}
+{"message":"bookmark with id:: not found","level":"error"}
+{"message":"bookmark with id:: not found","level":"error"}
+{"message":"bookmark with id:90258bf4-dfa5-4a86-b2d0-cda8a40b6e4 not found","level":"error"}
+{"message":"bookmark with id:90258bf4-dfa5-4a86-b2d0-cda8a40b6e4 not found","level":"error"}
+{"message":"bookmark with id:90258bf4-dfa5-4a86-b2d0-cda8a40b6e4 not found","level":"error"}

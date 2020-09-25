@@ -19,6 +19,7 @@ app.get("/", (req, res) => {
 
 app.use(validateRouter);
 app.use(bookmarkRouter);
+app.use(cors());
 
 app.use(function errorHandler(error, req, res, next) {
   let response;
@@ -30,7 +31,5 @@ app.use(function errorHandler(error, req, res, next) {
   }
   res.status(500).json(response);
 });
-
-app.use(cors());
 
 module.exports = app;

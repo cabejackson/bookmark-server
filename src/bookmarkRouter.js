@@ -40,6 +40,7 @@ bookmarkRouter
       logger.error(`bookmark with id:${id} not found`);
       return res.status(404).send("Bookmark not found. Enter valid Id");
     }
+    res.status(200).json(bookmark);
   })
   .delete((req, res) => {
     const { id } = req.params;
